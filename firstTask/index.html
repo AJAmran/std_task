@@ -12,7 +12,7 @@
     <header>
       <nav>
         <div class="logo">
-          <img src="./assets/logo.svg" alt="Steadfast">
+          <img src="./assets/logo.svg" alt="Steadfast" />
         </div>
         <ul class="nav-links">
           <li>
@@ -22,13 +22,32 @@
           <li><a href="">Services</a></li>
           <li><a href="">Contact</a></li>
         </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </header>
+
+    <!-- Modal for Hamburger Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+      <button class="close-btn" id="closeBtn">&times;</button>
+      <ul class="nav-links-mobile">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
     <!-- Hero Section -->
     <section class="parent-hero">
       <div class="hero">
         <div class="hero-content">
-          <h1>We Deliver <br> Parcel on Time with <br>no Hassle</h1>
+          <h1>
+            We Deliver <br />
+            Parcel on Time with <br />no Hassle
+          </h1>
           <p>
             Easy Tracking, fast Payment, and safe Delivery across the country.
           </p>
@@ -116,5 +135,9 @@
         </div>
       </div>
     </section>
+
+
+
+    <script src="./scripts/modal.js"></script>
   </body>
 </html>
