@@ -12,9 +12,10 @@ body {
 }
 
 header {
-  background-color: #e8e5e5;
+  background-color: #e9e4e4;
   padding: 10px 20px;
   box-shadow: inset;
+  padding: 10px;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0rem 3rem;
 }
 
 .nav-links {
@@ -200,6 +202,37 @@ nav {
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.footer {
+  background-color: #349574;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.social-links {
+  margin: 10px 0;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
 }
 
 /* Media Queries for Responsiveness */
