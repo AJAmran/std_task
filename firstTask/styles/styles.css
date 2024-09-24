@@ -13,9 +13,8 @@ body {
 
 header {
   background-color: #f4f4f4;
-  padding: 10px 10px;
+  padding: 10px 20px;
   box-shadow: inset;
-  border-bottom: 5px solid rgba(232, 232, 232, 0.936);
 }
 
 nav {
@@ -34,4 +33,57 @@ nav {
   color: black;
   text-decoration: none;
   font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3rem;
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+.hero-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-left: 3rem;
+}
+
+.stat h3 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.stat p {
+    color: #666;
 }
