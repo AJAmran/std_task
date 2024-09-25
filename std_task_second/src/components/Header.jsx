@@ -9,7 +9,7 @@ export default function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="bg-gray-100 shadow-md">
+    <header className="bg-gray-100 shadow-md border-b">
       <nav className="container mx-auto flex justify-between items-center p-4">
         <Link to="/" className="flex items-center">
           <img src={logo} alt="Steadfast" className="h-8" />
