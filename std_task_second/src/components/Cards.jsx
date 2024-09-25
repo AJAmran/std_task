@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "@react-spring/web";
 
-export default function Cards({ card }) {
+const Cards =({ card })=> {
   const [isHovered, setHovered] = React.useState(false);
 
   const hoverAnimation = useSpring({
@@ -25,3 +25,6 @@ export default function Cards({ card }) {
     </animated.div>
   );
 }
+
+
+export default Cards

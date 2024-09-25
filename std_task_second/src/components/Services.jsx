@@ -2,7 +2,7 @@ import { useTrail, animated } from "@react-spring/web";
 import { cardData } from "../utils/data";
 import Cards from "./Cards";
 
-export default function Services() {
+const Services = () => {
   const trail = useTrail(cardData.length, {
     from: { opacity: 0, transform: "translateY(20px)" },
     to: { opacity: 1, transform: "translateY(0)" },
@@ -24,4 +24,6 @@ export default function Services() {
       </div>
     </section>
   );
-}
+};
+
+export default Services;

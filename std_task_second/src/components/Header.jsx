@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from "../assets/images/logo.svg";
 import { Link } from "react-router-dom";
 
-export default function Header() {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className="bg-gray-100 shadow-md border-b">
       <nav className="container mx-auto flex justify-between items-center p-4">
-        <Link to="#home" className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img src={logo} alt="Steadfast" className="h-8" />
         </Link>
         <ul className="hidden md:flex space-x-6">
@@ -31,6 +31,12 @@ export default function Header() {
             className="text-black font-bold hover:text-green-600"
           >
             Services
+          </Link>
+          <Link
+            to="/productfilter"
+            className="text-black font-bold hover:text-green-600"
+          >
+            Product Sorting
           </Link>
 
           <Link
@@ -99,4 +105,7 @@ export default function Header() {
       </nav>
     </header>
   );
-}
+};
+
+
+export default Header;
