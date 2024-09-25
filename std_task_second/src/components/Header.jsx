@@ -15,27 +15,27 @@ export default function Header() {
           <img src={logo} alt="Steadfast" className="h-8" />
         </Link>
         <ul className="hidden md:flex space-x-6">
-          <Link to="/" className="text-black font-bold hover:text-blue-500">
+          <Link to="/" className="text-black font-bold hover:text-green-600">
             Home
           </Link>
 
           <Link
             to="#about"
-            className="text-black font-bold hover:text-blue-500"
+            className="text-black font-bold hover:text-green-600"
           >
             About
           </Link>
 
           <Link
             to="#services"
-            className="text-black font-bold hover:text-blue-500"
+            className="text-black font-bold hover:text-green-600"
           >
             Services
           </Link>
 
           <Link
             to="#contact"
-            className="text-black font-bold hover:text-blue-500"
+            className="text-black font-bold hover:text-green-600"
           >
             Contact
           </Link>
