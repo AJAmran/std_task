@@ -23,7 +23,7 @@ const Hero = () => {
     delay: 600,
   });
   return (
-    <section className="bg-gray-100 py-20">
+    <section id="home" className="bg-white py-20">
       <div className="container mx-auto px-6 lg:flex lg:items-center lg:justify-between">
         {/* Animated heading */}
         <animated.div style={fadeIn} className="lg:w-1/2">
@@ -54,7 +54,7 @@ const Hero = () => {
       {/* Animated stats section */}
       <animated.div
         style={statsAnimation}
-        className="container mx-auto mt-20 grid grid-cols-1 lg:grid-cols-3 gap-6 text-center"
+        className="container mx-auto px-6 mt-6 grid grid-cols-1 lg:grid-cols-3 gap-6 text-center"
       >
         <div className="shadow-md rounded-md p-3 bg-slate-100">
           <h3 className="text-2xl font-bold">300k+</h3>

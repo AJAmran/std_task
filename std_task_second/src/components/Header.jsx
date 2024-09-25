@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className="bg-gray-100 shadow-md border-b">
       <nav className="container mx-auto flex justify-between items-center p-4">
-        <Link to="/" className="flex items-center">
+        <Link to="#home" className="flex items-center">
           <img src={logo} alt="Steadfast" className="h-8" />
         </Link>
         <ul className="hidden md:flex space-x-6">
@@ -20,21 +20,21 @@ export default function Header() {
           </Link>
 
           <Link
-            to="/about"
+            to="#about"
             className="text-black font-bold hover:text-blue-500"
           >
             About
           </Link>
 
           <Link
-            to="/services"
+            to="#services"
             className="text-black font-bold hover:text-blue-500"
           >
             Services
           </Link>
 
           <Link
-            to="/contact"
+            to="#contact"
             className="text-black font-bold hover:text-blue-500"
           >
             Contact
@@ -64,7 +64,7 @@ export default function Header() {
           <div className="absolute top-0 left-0 w-full h-48 mt-16 bg-black bg-opacity-70 flex flex-col justify-center items-center z-50">
             <ul className="flex flex-col gap-5">
               <Link
-                to="/"
+                to="#home"
                 className="text-white text-xl"
                 onClick={toggleMenu}
               >
@@ -79,7 +79,7 @@ export default function Header() {
               </Link>
 
               <Link
-                to="/services"
+                to="#services"
                 className="text-white text-xl"
                 onClick={toggleMenu}
               >
@@ -87,7 +87,7 @@ export default function Header() {
               </Link>
 
               <Link
-                to="/contact"
+                to="#contact"
                 className="text-white text-xl"
                 onClick={toggleMenu}
               >
