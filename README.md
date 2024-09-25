@@ -85,5 +85,5 @@ To run the project locally:
 3. For the React version, follow the instructions in the [Project Setup](#project-setup) section above.
 
 ## Live Demo
-Check out the live version of the project hosted on [Vanilla HTML, CSS, JS](https://steadfasttask.netlify.app/).
-Check out the live version of the project hosted on [React](https://stead-fast-second-task.netlify.app/).
+Check out the live version of the project Vanilla HTML, CSS, JS : [Site](https://steadfasttask.netlify.app/).
+React Version with Filter funtionlaity  [Site](https://stead-fast-second-task.netlify.app/).
